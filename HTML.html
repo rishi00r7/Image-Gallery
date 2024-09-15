@@ -1,0 +1,75 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="C:\Users\APT COMPUTER\Documents\Image Gallery\CSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="C:\Users\APT COMPUTER\Documents\Image Gallery\JAVA.js" defer></script>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+
+    <div class="gallery" onclick="openLightbox(event)">
+        <img src="https://i.postimg.cc/DfW4QS39/Chrysanthemum.jpg"
+            alt="Image">
+        <img src="https://i.postimg.cc/NGW9dQg5/Desert.jpg"
+            alt="Image">
+        <img src="https://i.postimg.cc/nhfFDznG/c.jpg"
+            alt="Image">
+        <img src="https://i.postimg.cc/26tm8jHv/Hydrangeas.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/43JXWS7K/images.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/RFWhTDy7/Jellyfish.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/65n7SF3z/leaningtower-cathedral.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/7PTbGjgD/Lighthouse.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/13K8R6Dq/mmn.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/cLdJzHP4/Penguins.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/vmqDfsq8/shutterstock-168497345-1-min.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/wjFBYzd5/Tulips.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/HLxkpNpq/uwp1983576.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/brQzCcTt/wp10462935-glowing-tigers-wallpapers.jpg"
+            alt="Image">
+		
+		<img src="https://i.postimg.cc/c4RHTY9b/wp5709556-hacker-desktop-4k-wallpapers.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/HLxkpNpq/uwp1983576.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/6346ZG4z/wp9495298-purge-aesthetic-wallpapers.jpg"
+            alt="Image">
+		<img src="https://i.postimg.cc/c4n1CYGJ/336478795-228071786265669-1824812081696842357-n.jpg"
+            alt="Image">
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+
+        <!-- Thumbnails container -->
+        <div id="thumbnail-container">
+            <!-- Thumbnails will be added dynamically using JavaScript -->
+        </div>
+
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+    </div>
+	<!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Rishi Raj Singh</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+  </body>
+</html>
